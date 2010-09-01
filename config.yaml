@@ -1,0 +1,7 @@
+default: &default
+    tools:
+        dotnetpath: C:/Windows/Microsoft.Net/Framework/v4.0.30319/
+        xunitpath: tools/xunit/xunit.console.clr4.exe
+    build:
+        config: Release
+        solutionpath: src/TestHelpers.sln
